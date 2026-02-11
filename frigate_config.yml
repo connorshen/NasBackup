@@ -1,7 +1,9 @@
 mqtt:
-  host: 192.168.2.100
+  host: 192.168.3.100
   port: 1883
   topic_prefix: frigate
+tls:
+  enabled: false
 ffmpeg:
   hwaccel_args:
     - -hwaccel
